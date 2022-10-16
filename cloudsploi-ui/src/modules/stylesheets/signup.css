@@ -1,0 +1,143 @@
+* {
+    /* background-color: rgb(45, 39, 39); */
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(45, 39, 39);
+    /*background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(59, 57, 57, 0.9))), url("https://c1.wallpaperflare.com/preview/513/930/541/lady-woman-working-computer.jpg");
+    background-image: linear-gradient(to right, rgba(59, 57, 57, 0.9), rgba(59, 57, 57, 0.9)), url("https://c1.wallpaperflare.com/preview/513/930/541/lady-woman-working-computer.jpg");*/
+    /* background-color: #393131; */
+    background-position: center;
+    background-size: cover;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0;
+}
+
+.container {
+    margin-top: 1rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+    -ms-flex-direction: row-reverse;
+    flex-direction: row-reverse;
+    padding-bottom: 0rem;
+}
+
+.inner {
+    margin-top: 0rem;
+    width: 60%;
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.outputs {
+    display: block;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+.top1 {
+	font-size: 3rem;
+	color: rgb(39, 111, 199);
+    margin-bottom: 30px;
+}
+
+a,
+a:link,
+a:active {
+    padding: 0;
+    margin: 0;
+    color: rgb(95, 52, 174);
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+
+#desktop-register-bttn {
+    width: 200px;
+}
+
+#mobile-register-bttn {
+    display: none;
+}
+
+@media (min-width: 1920px) and (max-width: 2560px) {
+    img {
+        margin-top: 8.5rem;
+    }
+
+    .container {
+        margin-top: 4rem;
+    }
+}
+
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+
+/* Portrait and Landscape */
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+    .p {
+        width: 100%;
+        padding: 0px 10px;
+        margin: 0;
+        margin-top: 10px;
+        text-align: center;
+        font-size: 1.2rem;
+
+    }
+
+    .container {
+        flex-direction: column;
+        margin-top: 0rem;
+    }
+    top1
+    #desktop-register-bttn {
+        display: none;
+    }
+
+    #mobile-register-bttn {
+        display: block;
+        margin-top: .5rem;
+        margin-bottom: 2rem;
+        width: 70%;
+        position: relative;
+        bottom: 13px;
+    }
+}
+
+/*# sourceMappingURL=main.css.map */
+.google{
+	display: block;
+	bottom: 13px;
+	color: red;
+}
